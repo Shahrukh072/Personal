@@ -9,7 +9,11 @@ const taskSchema = new mongoose.Schema(
     description: {
       type: String,
       required: true
-    },   
+    },  
+    descriptiontype: {
+      type: String,
+      required: true
+    },  
     date: {
         type: String,
         required: true
